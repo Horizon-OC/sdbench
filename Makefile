@@ -43,7 +43,10 @@ SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
 APP_TITLE       :=      SDBench
-APP_AUTHOR      :=      Souldbminer
+APP_AUTHOR      :=      Souldbminer, Lightos
+VERSION_MAJOR		:=	1
+VERSION_MINOR		:=	1
+VERSION_MICRO		:=	0
 #ROMFS	:=	romfs
 
 #---------------------------------------------------------------------------------
