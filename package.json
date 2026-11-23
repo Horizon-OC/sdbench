@@ -1,0 +1,9 @@
+{
+    "title": "SDBench",
+    "author": "Souldbminer and Lightos_",
+    "version": "1.1.0",
+    "description": "A simple SD card benchmarking tool",
+    "details": "SDBench is a simple SD Card benchmark tool. It supports both Switch 1 and Switch 2, and can be used to determine SD card health and overall speed",
+    "license": "GPLv2",
+    "changelog": "1.1.0: Improve benchmark relability and support both NX and OUNCE targets (S1/S2)\n1.0.0: Initial release"
+}
