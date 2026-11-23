@@ -1,0 +1,11 @@
+#---------------------------------------------------------------------------------
+# Nintendo Switch (libnx) build.
+#
+#   make -f Makefile.nx           build sdbench_nx.nro
+#   make -f Makefile.nx clean     remove Switch-only build outputs
+#
+# All shared build rules live in Makefile.common.
+#---------------------------------------------------------------------------------
+PLATFORM := nx
+
+include $(dir $(lastword $(MAKEFILE_LIST)))Makefile.common

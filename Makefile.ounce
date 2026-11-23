@@ -1,0 +1,11 @@
+#---------------------------------------------------------------------------------
+# Nintendo Switch 2 (libounce) build.
+#
+#   make -f Makefile.ounce        build sdbench_ounce.nro
+#   make -f Makefile.ounce clean  remove Switch 2-only build outputs
+#
+# All shared build rules live in Makefile.common.
+#---------------------------------------------------------------------------------
+PLATFORM := ounce
+
+include $(dir $(lastword $(MAKEFILE_LIST)))Makefile.common
